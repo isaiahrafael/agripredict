@@ -1,6 +1,3 @@
-# Create the README.md file with the given content
-
-readme_content = """
 # Commodity CSV Splitter
 
 This script splits a CSV file containing commodity futures data into separate CSV files based on different commodity categories.
