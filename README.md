@@ -69,10 +69,3 @@ for category, columns in categories.items():
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 """
-
-# Save the README content to a file
-readme_path = '/mnt/data/README.md'
-with open(readme_path, 'w') as file:
-    file.write(readme_content)
-
-readme_path
