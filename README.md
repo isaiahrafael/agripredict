@@ -1,5 +1,4 @@
-# Commodity CSV Splitter
-
+# AgriPredict
 This script splits a CSV file containing commodity futures data into separate CSV files based on different commodity categories.
 
 ## Requirements
