@@ -1,0 +1,278 @@
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.35 GB / 32.00 GB (48.0%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 20,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 199 short time series from train_data. Only series with length >= 41 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.33 GB / 32.00 GB (47.9%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 19,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 199 short time series from train_data. Only series with length >= 39 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.28 GB / 32.00 GB (47.8%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 18,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 199 short time series from train_data. Only series with length >= 37 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.29 GB / 32.00 GB (47.8%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 17,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 199 short time series from train_data. Only series with length >= 35 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.30 GB / 32.00 GB (47.8%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 199 short time series from train_data. Only series with length >= 33 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Warning: path already exists! This predictor may overwrite an existing predictor! path="autogloun-daily"
+Beginning AutoGluon training... Time limit = 1200s
+AutoGluon will save models to 'autogloun-daily'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.11.7
+Operating System:   Darwin
+Platform Machine:   x86_64
+Platform Version:   Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       15.27 GB / 32.00 GB (47.7%)
+Disk Space Avail:   838.64 GB / 931.55 GB (90.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MASE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 15,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1200,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 5845 rows (NaN fraction=27.0%), 199 time series. Median time series length is 30 (min=12, max=31). 
+	Removing 156 short time series from train_data. Only series with length >= 31 will be used for training.
+	After filtering, train_data has 1333 rows (NaN fraction=26.5%), 43 time series. Median time series length is 31 (min=31, max=31). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MASE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2024-07-31 16:34:47
+Models that will be trained: ['Naive', 'SeasonalNaive', 'RecursiveTabular', 'DirectTabular', 'ETS', 'Theta', 'TemporalFusionTransformer']
+Training timeseries model Naive. Training for up to 149.9s of the 1199.1s of remaining time.
+	-1.0905       = Validation score (-MASE)
+	0.02    s     = Training runtime
+	2.65    s     = Validation (prediction) runtime
+Training timeseries model SeasonalNaive. Training for up to 170.9s of the 1196.4s of remaining time.
+	-1.7395       = Validation score (-MASE)
+	0.02    s     = Training runtime
+	0.06    s     = Validation (prediction) runtime
+Training timeseries model RecursiveTabular. Training for up to 199.4s of the 1196.3s of remaining time.
+	Time series in the dataset are too short for chosen differences [7]. Setting differences to [1].
+	Warning: Exception caused LightGBM to fail during training (ImportError)... Skipping this model.
+		`import lightgbm` failed. If you are using Mac OSX, Please try 'brew install libomp'. Detailed info: dlopen(/opt/anaconda3/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.so, 0x0006): Library not loaded: /usr/local/opt/libomp/lib/libomp.dylib
+  Referenced from: <C3EB28DD-60B6-3334-AFA2-72BBBF9DBAEF> /opt/anaconda3/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.so
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+	Warning: Exception caused RecursiveTabular to fail during training... Skipping this model.
+	Trainer has no fit models that can infer.
+Training timeseries model DirectTabular. Training for up to 238.8s of the 1193.8s of remaining time.
+	Warning: Exception caused LightGBM to fail during training (ImportError)... Skipping this model.
+		`import lightgbm` failed. If you are using Mac OSX, Please try 'brew install libomp'. Detailed info: dlopen(/opt/anaconda3/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.so, 0x0006): Library not loaded: /usr/local/opt/libomp/lib/libomp.dylib
+  Referenced from: <C3EB28DD-60B6-3334-AFA2-72BBBF9DBAEF> /opt/anaconda3/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.so
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+	Warning: Exception caused DirectTabular to fail during training... Skipping this model.
+	Trainer has no fit models that can infer.
+Training timeseries model ETS. Training for up to 298.4s of the 1193.5s of remaining time.
+	-1.1177       = Validation score (-MASE)
+	0.05    s     = Training runtime
+	30.11   s     = Validation (prediction) runtime
+Training timeseries model Theta. Training for up to 387.8s of the 1163.3s of remaining time.
+	-1.2388       = Validation score (-MASE)
+	0.05    s     = Training runtime
+	10.94   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 576.2s of the 1152.3s of remaining time.
+	-3.0294       = Validation score (-MASE)
+	92.07   s     = Training runtime
+	0.06    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'ETS': 0.42, 'Naive': 0.56, 'Theta': 0.02}
+	-1.0522       = Validation score (-MASE)
+	0.29    s     = Training runtime
+	43.70   s     = Validation (prediction) runtime
+Training complete. Models trained: ['Naive', 'SeasonalNaive', 'ETS', 'Theta', 'TemporalFusionTransformer', 'WeightedEnsemble']
+Total runtime: 139.74 s
+Best model: WeightedEnsemble
+Best model score: -1.0522
+data with frequency 'None' has been resampled to frequency 'D'.
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
