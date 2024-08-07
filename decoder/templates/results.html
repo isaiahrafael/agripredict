@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forecast Results - AgriPredict</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Consolas:wght@400;700&display=swap');
+        
+        body {
+            background-color: #2c2c2c;
+            color: #f0f0f0;
+            font-family: 'Consolas', monospace;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            background-color: #444;
+        }
+        .navbar-brand, .nav-link {
+            color: #f0f0f0 !important;
+        }
+        .container {
+            margin-top: 50px;
+            flex: 1;
+        }
+        .card {
+            background-color: #333;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .card-header {
+            background-color: #444;
+            border-bottom: 1px solid #555;
+        }
+        .card-body {
+            padding: 30px;
+        }
+        .btn-secondary {
+            background-color: #555;
+            border-color: #555;
+        }
+        .btn-secondary:hover {
+            background-color: #777;
+            border-color: #777;
+        }
+        h2 {
+            color: #007bff;
+        }
+        footer {
+            background-color: #444;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/">AgriPredict</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/results">Results</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="mt-5 mb-4 text-center">Forecast Results - AgriPredict</h1>
+        {% for result in results %}
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="mb-0">{{ result.column }}</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>SARIMA MSE:</strong> {{ result.sarima_mse }}</p>
+                    <p><strong>Prophet MSE:</strong> {{ result.prophet_mse }}</p>
+                    <p><strong>Better Model:</strong> {{ result.better_model }}</p>
+                    <img src="{{ url_for('static', filename=result.sarima_plot_path) }}" alt="SARIMA Forecast Plot" class="img-fluid mt-3">
+                    <img src="{{ url_for('static', filename=result.prophet_plot_path) }}" alt="Prophet Forecast Plot" class="img-fluid mt-3">
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <footer>
+        &copy; 2024 AgriPredict. Owned by Team 6. Made for GGGG HHH & JJJ.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
